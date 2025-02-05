@@ -47,10 +47,10 @@ desktop.ini
 /e2e/
 
 # Dependências e pacotes do Node.js
-/node_modules/
-/package-lock.json
-/yarn.lock
-/npm-debug.log*
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
 
 # ================================
 # Configurações específicas do .NET
