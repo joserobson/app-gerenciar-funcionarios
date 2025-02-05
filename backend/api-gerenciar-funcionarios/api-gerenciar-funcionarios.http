@@ -1,0 +1,6 @@
+@api_gerenciar_funcionarios_HostAddress = http://localhost:5044
+
+GET {{api_gerenciar_funcionarios_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

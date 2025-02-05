@@ -1,0 +1,108 @@
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  
+    .btn-primary {
+      display: block;
+      margin: 0 auto;
+      font-weight: bold;
+    }
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  
+    thead {
+      background-color: #007bff;
+      color: white;
+  
+      th {
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+      }
+    }
+  
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: #f8f9fa;
+        }
+  
+        &:hover {
+          background-color: #e9ecef;
+          cursor: pointer;
+        }
+  
+        td {
+          padding: 12px;
+          border-bottom: 1px solid #ddd;
+        }
+      }
+    }
+  }
+  
+  .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+  
+    &:hover {
+      background-color: #e0a800;
+    }
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  
+    &:hover {
+      background-color: #c82333;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .btn-primary {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    th,
+    td {
+      white-space: nowrap;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  api-gerenciar-funcionarios:
+    image: ${DOCKER_REGISTRY-}apigerenciarfuncionarios
+    build:
+      context: api-gerenciar-funcionarios
+      dockerfile: Dockerfile
+    depends_on:
+      - db-gerenciar-funcionarios
+  db-gerenciar-funcionarios:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: funcionarios_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data_funcionario:/var/lib/postgresql/data
+
+volumes:
+  postgres_data_funcionario:

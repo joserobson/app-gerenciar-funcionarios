@@ -1,0 +1,114 @@
+<div class="container">
+    <h2>{{ isEdit ? 'Editar Funcionário' : 'Cadastrar Funcionário' }}</h2>
+  
+    <form [formGroup]="funcionarioForm" (ngSubmit)="salvar()">
+      <div class="row">
+        <!-- Nome -->
+        <div class="col-md-6">
+          <label>Nome <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" formControlName="primeiroNome" />
+          <small class="text-danger" *ngIf="funcionarioForm.get('primeiroNome')?.invalid && funcionarioForm.get('primeiroNome')?.touched">
+            Nome é obrigatório.
+          </small>
+        </div>
+  
+        <!-- Sobrenome -->
+        <div class="col-md-6">
+          <label>Sobrenome <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" formControlName="sobrenome" />
+          <small class="text-danger" *ngIf="funcionarioForm.get('sobrenome')?.invalid && funcionarioForm.get('sobrenome')?.touched">
+            Sobrenome é obrigatório.
+          </small>
+        </div>
+      </div>
+  
+      <div class="row mt-3">
+        <!-- E-mail -->
+        <div class="col-md-6">
+          <label>Email <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" formControlName="email" />
+          <small class="text-danger" *ngIf="funcionarioForm.get('email')?.invalid && funcionarioForm.get('email')?.touched">
+            Email é obrigatório e deve ser válido.
+          </small>
+        </div>
+  
+        <!-- Número do Documento -->
+        <div class="col-md-6">
+          <label>Número do Documento <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" formControlName="numeroDocumento" />
+          <small class="text-danger" *ngIf="funcionarioForm.get('numeroDocumento')?.invalid && funcionarioForm.get('numeroDocumento')?.touched">
+            Documento é obrigatório e deve ser único.
+          </small>
+        </div>
+      </div>
+  
+      <div class="row mt-3">
+        <!-- Telefones -->
+        <div class="col-md-6">
+          <label>Telefones <span class="text-danger">*</span> (Mínimo 2)</label>
+          <div formArrayName="telefones">
+            <div *ngFor="let telefone of telefones.controls; let i = index" class="mb-2">
+              <div class="d-flex">
+                <input type="text" class="form-control" [formControlName]="i" [placeholder]="'Telefone ' + (i + 1)" />
+                <button type="button" class="btn btn-danger ms-2" *ngIf="i >= 2" (click)="removerTelefone(i)">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+              <small class="text-danger" *ngIf="telefones.controls[i].invalid && telefones.controls[i].touched">
+                Telefone inválido. Digite 10 ou 11 números.
+              </small>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary mt-2" (click)="adicionarTelefone()" [disabled]="telefones.length >= 5">
+            Adicionar Telefone
+          </button>
+        </div>
+  
+        <!-- Nome do Gestor -->
+        <div class="col-md-6">
+          <label>Nome do Gestor</label>
+          <select class="form-control" formControlName="gestorId">
+            <option *ngFor="let gestor of gestores" [value]="gestor.id">{{ gestor.primeiroNome }}</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="row mt-3">
+        <!-- Senha -->
+        <div class="col-md-6" *ngIf="!isEdit">
+          <label>Senha <span class="text-danger">*</span></label>
+          <input type="password" class="form-control" formControlName="senha" />
+          <small class="text-danger" *ngIf="funcionarioForm.get('senha')?.invalid && funcionarioForm.get('senha')?.touched">
+            Senha deve ter pelo menos 8 caracteres, uma maiúscula e um número.
+          </small>
+        </div>
+  
+        <!-- Data de Nascimento -->
+        <div class="col-md-6">
+          <label>Data de Nascimento</label>
+          <input type="date" class="form-control" formControlName="dataNascimento" />          
+        </div>
+      </div>
+  
+      <div class="row mt-3">
+        <!-- Cargo -->
+        <div class="col-md-6">
+          <label>Cargo <span class="text-danger">*</span></label>
+          <select class="form-control" formControlName="cargo">
+            <option *ngFor="let cargo of cargos" [value]="cargo.id">{{ cargo.nome }}</option>
+          </select>
+          <small class="text-danger" *ngIf="funcionarioForm.get('cargo')?.invalid && funcionarioForm.get('cargo')?.touched">
+            Cargo é obrigatório.
+          </small>
+        </div>            
+      </div>
+
+      <div class="mt-4">
+        <button class="btn btn-success" type="submit" [disabled]="funcionarioForm.invalid">
+          {{ isEdit ? 'Atualizar' : 'Cadastrar' }}
+        </button>
+        <button class="btn btn-secondary" type="button" routerLink="/funcionarios">Cancelar</button>
+      </div>      
+    </form>
+  </div>
+  

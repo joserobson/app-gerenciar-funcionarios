@@ -1,0 +1,113 @@
+# ================================
+# Ignorar arquivos globais
+# ================================
+# Sistemas operacionais
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ambientes IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs e dados temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Arquivos de build e distribuição
+/dist/
+/build/
+/out/
+/bin/
+/obj/
+
+# Pacotes e dependências
+/node_modules/
+/bower_components/
+/packages/
+
+# Arquivos de ambiente locais
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Configurações específicas do Angular
+# ================================
+# Cache do Angular CLI
+/.angular/
+
+# Arquivos gerados pelo Angular
+/dist/
+/e2e/
+
+# Dependências e pacotes do Node.js
+/node_modules/
+/package-lock.json
+/yarn.lock
+/npm-debug.log*
+
+# ================================
+# Configurações específicas do .NET
+# ================================
+# Arquivos de build e publicação
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+
+# Arquivos temporários do Visual Studio
+*.user
+*.suo
+*.cache
+*.tmp
+*.log
+
+# Arquivos de configuração local
+/appsettings.Development.json
+/appsettings.Production.json
+/secrets.json
+
+# Testes e cobertura de código
+/TestResults/
+/coverage/
+
+# Ferramentas e dependências
+/.vs/
+/.nuget/
+/packages/
+
+# Arquivos de migração temporários
+*.migration.cs
+
+# ================================
+# Outros
+# ================================
+# Arquivos de backup
+*~
+*.orig
+
+# Arquivos de upload ou download temporário
+*.part
+*.crdownload
+
+# Arquivos sensíveis (chaves, senhas, etc.)
+*.key
+*.crt
+*.pfx
+*.pem
+
+# Arquivos de cache
+/.cache/
+/.sass-cache/
+
+# Logs de ferramentas
+/coverage/
+/test-results/

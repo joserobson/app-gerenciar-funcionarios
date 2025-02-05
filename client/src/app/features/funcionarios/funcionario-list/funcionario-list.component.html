@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Lista de Funcionários</h2>
+    <button class="btn btn-primary mb-3" routerLink="/funcionarios/novo">+ Adicionar Funcionário</button>
+  
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Documento</th>
+          <th>Telefone</th>
+          <th>Cargo</th>          
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let funcionario of funcionarios">
+          <td>{{ funcionario.nome }} {{ funcionario.sobrenome }}</td>
+          <td>{{ funcionario.email }}</td>
+          <td>{{ funcionario.numeroDocumento }}</td>
+          <td>{{ funcionario.telefones.join(', ') }}</td>
+          <td>{{ getCargoLabel(funcionario.cargo)}}</td>
+          <td>
+            <button class="btn btn-warning btn-sm" [routerLink]="['/funcionarios/editar', funcionario.id]">Editar</button>
+            <button class="btn btn-danger btn-sm" (click)="deletarFuncionario(funcionario.id)">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

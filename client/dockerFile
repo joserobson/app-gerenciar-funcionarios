@@ -1,0 +1,14 @@
+# Usar a imagem oficial do Node.js 22 para desenvolvimento
+FROM node:22 AS dev
+
+# Definir o diretório de trabalho dentro do contêiner
+WORKDIR /app
+
+# Expor a porta padrão do Angular
+EXPOSE 4200
+
+# Instalar Angular CLI globalmente (para criar o projeto depois)
+RUN npm install -g @angular/cli
+
+# Comando padrão para manter o contêiner rodando
+CMD ["tail", "-f", "/dev/null"]

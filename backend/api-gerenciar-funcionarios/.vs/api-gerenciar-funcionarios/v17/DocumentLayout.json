@@ -1,0 +1,322 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|d:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\api-gerenciar-funcionarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:api-gerenciar-funcionarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|d:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\models\\cargoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:models\\cargoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\context\\funcionariosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:context\\funcionariosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\dtos\\funcionarioentradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:dtos\\funcionarioentradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\dtos\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:dtos\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B7005EED-20F5-41AA-89F6-D64CCEF9BFBA}|api-gerenciar-funcionarios.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "api-gerenciar-funcionarios",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\api-gerenciar-funcionarios.csproj",
+              "RelativeDocumentMoniker": "api-gerenciar-funcionarios.csproj",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\api-gerenciar-funcionarios.csproj",
+              "RelativeToolTip": "api-gerenciar-funcionarios.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-01T16:55:31.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T15:27:42.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CargoEnum.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Models\\CargoEnum.cs",
+              "RelativeDocumentMoniker": "Models\\CargoEnum.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Models\\CargoEnum.cs",
+              "RelativeToolTip": "Models\\CargoEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:33:45.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:18:29.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwEoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:17:09.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FuncionarioEntradaDTO.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dtos\\FuncionarioEntradaDTO.cs",
+              "RelativeDocumentMoniker": "Dtos\\FuncionarioEntradaDTO.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dtos\\FuncionarioEntradaDTO.cs",
+              "RelativeToolTip": "Dtos\\FuncionarioEntradaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:15:10.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FuncionarioDTO.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dtos\\FuncionarioDTO.cs",
+              "RelativeDocumentMoniker": "Dtos\\FuncionarioDTO.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dtos\\FuncionarioDTO.cs",
+              "RelativeToolTip": "Dtos\\FuncionarioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:14:48.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Models\\Funcionario.cs",
+              "RelativeToolTip": "Models\\Funcionario.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:11:23.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionariosDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Context\\FuncionariosDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\FuncionariosDbContext.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Context\\FuncionariosDbContext.cs",
+              "RelativeToolTip": "Context\\FuncionariosDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:09:01.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:05:49.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T14:04:01.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\workspace\\app-gerenciar-funcionarios\\backend\\api-gerenciar-funcionarios\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-01T13:56:31.832Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

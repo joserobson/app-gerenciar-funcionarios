@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <div class="container">
+    <h1>Gerenciador de Funcionários</h1>
+    
+    <div *ngIf="isAuthenticated" class="user-info">
+      <span>Bem-vindo, {{ userName }}</span>
+      <button class="btn btn-danger" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
